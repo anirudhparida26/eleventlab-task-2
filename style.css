@@ -1,0 +1,54 @@
+/* 1. Global styles */
+* {
+    box-sizing: border-box; /* Important for box model control */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    margin: 0;
+    padding: 40px;
+}
+
+/* 2. Profile Card */
+.profile-card {
+    width: 350px;
+
+    /* Box model */
+    padding: 20px;
+    margin: 0 auto; /* center horizontally */
+    border: 2px solid #ccc;
+
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+/* 3. Headers */
+.name {
+    margin-bottom: 5px;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+/* 4. Paragraph styling */
+.bio {
+    padding: 10px;
+    margin-bottom: 20px;
+
+    border: 1px dashed #ddd;
+    background-color: #f9f9f9;
+}
+
+/* 5. List styling */
+.skills {
+    padding-left: 20px; /* affects content spacing */
+}
+
+.skills li {
+    margin-bottom: 8px;
+}
